@@ -1,0 +1,147 @@
+/* Video Container */
+.video-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.video-feed {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Controls */
+.controls {
+    margin-top: 20px;
+}
+
+.btn {
+    min-width: 150px;
+    transition: all 0.3s ease;
+}
+
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Exercise Controls */
+.exercise-controls {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+/* Stats Display */
+.stat-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.stat-item:last-child {
+    border-bottom: none;
+}
+
+.stat-item label {
+    font-weight: 600;
+    color: #495057;
+}
+
+/* Workout History */
+.workout-history {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.workout-session {
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.workout-session:hover {
+    background-color: #e9ecef;
+}
+
+.session-date {
+    color: #0d6efd;
+}
+
+.session-details {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.exercise-item {
+    margin-top: 0.25rem;
+    padding-left: 1rem;
+    border-left: 3px solid #6c757d;
+}
+
+/* Goals Form */
+#goalsForm {
+    padding: 1rem;
+}
+
+#goalsForm .form-label {
+    font-weight: 500;
+    color: #495057;
+}
+
+#goalsForm .form-control {
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    transition: all 0.3s ease;
+}
+
+#goalsForm .form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Cards */
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+    border-bottom: none;
+    padding: 1rem;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
